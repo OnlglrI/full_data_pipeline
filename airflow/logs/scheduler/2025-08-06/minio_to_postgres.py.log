@@ -1,0 +1,406 @@
+[2025-08-06T10:50:50.156+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:50:50.156+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T10:50:50.158+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:50:50.157+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:50:50.941+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:50:50.958+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:50:50.958+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T10:50:50.973+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:50:50.973+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 09:00:00+00:00, run_after=2025-08-06 10:00:00+00:00
+[2025-08-06T10:50:50.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.833 seconds
+[2025-08-06T10:51:21.562+0000] {processor.py:161} INFO - Started process (PID=184) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:51:21.563+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T10:51:21.564+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:51:21.564+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:51:21.786+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:51:21.852+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:51:21.851+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T10:51:21.864+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:51:21.864+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 09:00:00+00:00, run_after=2025-08-06 10:00:00+00:00
+[2025-08-06T10:51:21.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.435 seconds
+[2025-08-06T10:51:52.897+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:51:52.905+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T10:51:52.907+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:51:52.906+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:51:53.144+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:51:53.162+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:51:53.162+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T10:51:53.177+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:51:53.177+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 09:00:00+00:00, run_after=2025-08-06 10:00:00+00:00
+[2025-08-06T10:51:53.196+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.304 seconds
+[2025-08-06T10:52:23.236+0000] {processor.py:161} INFO - Started process (PID=206) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:52:23.236+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T10:52:23.238+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:52:23.238+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:52:23.467+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:52:23.484+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:52:23.484+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T10:52:23.499+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:52:23.499+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 09:00:00+00:00, run_after=2025-08-06 10:00:00+00:00
+[2025-08-06T10:52:23.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.286 seconds
+[2025-08-06T10:52:54.347+0000] {processor.py:161} INFO - Started process (PID=217) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:52:54.355+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T10:52:54.357+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:52:54.356+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:52:54.581+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:52:54.599+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:52:54.599+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T10:52:54.613+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:52:54.613+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 09:00:00+00:00, run_after=2025-08-06 10:00:00+00:00
+[2025-08-06T10:52:54.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.280 seconds
+[2025-08-06T10:53:24.679+0000] {processor.py:161} INFO - Started process (PID=228) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:53:24.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T10:53:24.681+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:53:24.681+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:53:24.911+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:53:24.929+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:53:24.929+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T10:53:24.945+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:53:24.945+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 09:00:00+00:00, run_after=2025-08-06 10:00:00+00:00
+[2025-08-06T10:53:24.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.289 seconds
+[2025-08-06T10:53:55.788+0000] {processor.py:161} INFO - Started process (PID=239) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:53:55.796+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T10:53:55.797+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:53:55.797+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:53:56.025+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:53:56.044+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:53:56.043+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T10:53:56.059+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:53:56.059+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 09:00:00+00:00, run_after=2025-08-06 10:00:00+00:00
+[2025-08-06T10:53:56.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.294 seconds
+[2025-08-06T10:54:26.113+0000] {processor.py:161} INFO - Started process (PID=250) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:54:26.113+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T10:54:26.114+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:54:26.114+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:54:26.336+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:54:26.353+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:54:26.353+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T10:54:26.368+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:54:26.368+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 09:00:00+00:00, run_after=2025-08-06 10:00:00+00:00
+[2025-08-06T10:54:26.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.270 seconds
+[2025-08-06T10:54:57.226+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:54:57.234+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T10:54:57.235+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:54:57.235+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:54:57.461+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:54:57.479+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:54:57.479+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T10:54:57.493+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:54:57.493+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 09:00:00+00:00, run_after=2025-08-06 10:00:00+00:00
+[2025-08-06T10:54:57.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.289 seconds
+[2025-08-06T10:55:27.548+0000] {processor.py:161} INFO - Started process (PID=272) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:55:27.549+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T10:55:27.550+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:55:27.550+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:55:27.774+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:55:27.792+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:55:27.792+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T10:55:27.806+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:55:27.806+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 09:00:00+00:00, run_after=2025-08-06 10:00:00+00:00
+[2025-08-06T10:55:27.823+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.279 seconds
+[2025-08-06T10:55:58.666+0000] {processor.py:161} INFO - Started process (PID=283) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:55:58.667+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T10:55:58.668+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:55:58.668+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:55:58.889+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:55:58.909+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:55:58.908+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T10:55:58.923+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:55:58.923+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 09:00:00+00:00, run_after=2025-08-06 10:00:00+00:00
+[2025-08-06T10:55:58.933+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.272 seconds
+[2025-08-06T10:56:29.007+0000] {processor.py:161} INFO - Started process (PID=294) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:56:29.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T10:56:29.009+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:56:29.009+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:56:29.232+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:56:29.250+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:56:29.250+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T10:56:29.266+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:56:29.265+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 09:00:00+00:00, run_after=2025-08-06 10:00:00+00:00
+[2025-08-06T10:56:29.275+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.273 seconds
+[2025-08-06T10:57:00.118+0000] {processor.py:161} INFO - Started process (PID=305) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:57:00.126+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T10:57:00.127+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:57:00.127+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:57:00.348+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:57:00.365+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:57:00.365+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T10:57:00.379+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:57:00.379+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 09:00:00+00:00, run_after=2025-08-06 10:00:00+00:00
+[2025-08-06T10:57:00.396+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.283 seconds
+[2025-08-06T10:57:30.486+0000] {processor.py:161} INFO - Started process (PID=316) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:57:30.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T10:57:30.488+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:57:30.488+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:57:30.708+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:57:30.728+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:57:30.728+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T10:57:30.742+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:57:30.742+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 09:00:00+00:00, run_after=2025-08-06 10:00:00+00:00
+[2025-08-06T10:57:30.752+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.270 seconds
+[2025-08-06T10:58:01.607+0000] {processor.py:161} INFO - Started process (PID=327) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:58:01.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T10:58:01.617+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:58:01.617+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:58:01.838+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:58:01.855+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:58:01.855+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T10:58:01.869+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:58:01.869+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 09:00:00+00:00, run_after=2025-08-06 10:00:00+00:00
+[2025-08-06T10:58:01.887+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.285 seconds
+[2025-08-06T10:58:31.926+0000] {processor.py:161} INFO - Started process (PID=338) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:58:31.926+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T10:58:31.927+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:58:31.927+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:58:32.146+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:58:32.165+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:58:32.164+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T10:58:32.180+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:58:32.180+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 09:00:00+00:00, run_after=2025-08-06 10:00:00+00:00
+[2025-08-06T10:58:32.189+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.268 seconds
+[2025-08-06T10:59:03.045+0000] {processor.py:161} INFO - Started process (PID=349) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:59:03.053+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T10:59:03.054+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:59:03.054+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:59:03.278+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:59:03.296+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:59:03.295+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T10:59:03.310+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:59:03.310+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 09:00:00+00:00, run_after=2025-08-06 10:00:00+00:00
+[2025-08-06T10:59:03.323+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.283 seconds
+[2025-08-06T10:59:33.362+0000] {processor.py:161} INFO - Started process (PID=365) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:59:33.363+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T10:59:33.364+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:59:33.364+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:59:33.593+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T10:59:33.612+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:59:33.612+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T10:59:33.627+0000] {logging_mixin.py:188} INFO - [2025-08-06T10:59:33.627+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 09:00:00+00:00, run_after=2025-08-06 10:00:00+00:00
+[2025-08-06T10:59:33.645+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.288 seconds
+[2025-08-06T11:00:03.886+0000] {processor.py:161} INFO - Started process (PID=401) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:00:03.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:00:03.895+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:00:03.895+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:00:04.119+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:00:04.137+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:00:04.136+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:00:04.151+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:00:04.151+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:00:04.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.283 seconds
+[2025-08-06T11:00:35.077+0000] {processor.py:161} INFO - Started process (PID=432) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:00:35.085+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:00:35.086+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:00:35.086+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:00:35.306+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:00:35.323+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:00:35.322+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:00:35.337+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:00:35.337+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:00:35.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.283 seconds
+[2025-08-06T11:01:06.342+0000] {processor.py:161} INFO - Started process (PID=448) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:01:06.343+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:01:06.344+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:01:06.343+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:01:06.564+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:01:06.580+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:01:06.580+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:01:06.594+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:01:06.594+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:01:06.609+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.271 seconds
+[2025-08-06T11:01:37.498+0000] {processor.py:161} INFO - Started process (PID=464) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:01:37.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:01:37.500+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:01:37.499+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:01:37.723+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:01:37.739+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:01:37.738+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:01:37.754+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:01:37.754+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:01:37.772+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.280 seconds
+[2025-08-06T11:02:08.715+0000] {processor.py:161} INFO - Started process (PID=480) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:02:08.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:02:08.724+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:02:08.723+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:02:08.942+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:02:08.958+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:02:08.958+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:02:08.973+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:02:08.973+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:02:08.991+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.281 seconds
+[2025-08-06T11:02:39.941+0000] {processor.py:161} INFO - Started process (PID=511) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:02:39.942+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:02:39.943+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:02:39.942+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:02:40.180+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:02:40.196+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:02:40.196+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:02:40.210+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:02:40.210+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:02:40.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.293 seconds
+[2025-08-06T11:03:11.120+0000] {processor.py:161} INFO - Started process (PID=527) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:03:11.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:03:11.121+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:03:11.121+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:03:11.352+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:03:11.369+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:03:11.368+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:03:11.383+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:03:11.383+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:03:11.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.278 seconds
+[2025-08-06T11:03:41.606+0000] {processor.py:161} INFO - Started process (PID=553) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:03:41.614+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:03:41.614+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:03:41.614+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:03:41.842+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:03:41.857+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:03:41.857+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:03:41.872+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:03:41.872+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:03:41.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.289 seconds
+[2025-08-06T11:04:12.745+0000] {processor.py:161} INFO - Started process (PID=564) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:04:12.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:04:12.754+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:04:12.753+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:04:12.971+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:04:12.987+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:04:12.986+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:04:13.001+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:04:13.001+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:04:13.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.277 seconds
+[2025-08-06T11:04:43.927+0000] {processor.py:161} INFO - Started process (PID=575) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:04:43.935+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:04:43.935+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:04:43.935+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:04:44.161+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:04:44.177+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:04:44.177+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:04:44.191+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:04:44.191+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:04:44.211+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.289 seconds
+[2025-08-06T11:05:15.114+0000] {processor.py:161} INFO - Started process (PID=586) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:05:15.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:05:15.115+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:05:15.115+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:05:15.347+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:05:15.363+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:05:15.363+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:05:15.377+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:05:15.377+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:05:15.394+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.285 seconds
+[2025-08-06T11:05:46.302+0000] {processor.py:161} INFO - Started process (PID=597) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:05:46.310+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:05:46.310+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:05:46.310+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:05:46.535+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:05:46.550+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:05:46.550+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:05:46.567+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:05:46.567+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:05:46.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.288 seconds
+[2025-08-06T11:06:17.487+0000] {processor.py:161} INFO - Started process (PID=608) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:06:17.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:06:17.496+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:06:17.496+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:06:17.727+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:06:17.743+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:06:17.743+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:06:17.759+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:06:17.758+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:06:17.776+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.294 seconds
+[2025-08-06T11:06:48.682+0000] {processor.py:161} INFO - Started process (PID=619) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:06:48.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:06:48.684+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:06:48.683+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:06:48.912+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:06:48.929+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:06:48.929+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:06:48.943+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:06:48.943+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:06:48.961+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.283 seconds
+[2025-08-06T11:07:19.851+0000] {processor.py:161} INFO - Started process (PID=630) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:07:19.859+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:07:19.859+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:07:19.859+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:07:20.091+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:07:20.107+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:07:20.106+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:07:20.122+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:07:20.121+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:07:20.141+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.295 seconds
+[2025-08-06T11:07:51.033+0000] {processor.py:161} INFO - Started process (PID=641) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:07:51.034+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:07:51.034+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:07:51.034+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:07:51.256+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:07:51.272+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:07:51.271+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:07:51.287+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:07:51.287+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:07:51.305+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.276 seconds
+[2025-08-06T11:08:22.225+0000] {processor.py:161} INFO - Started process (PID=652) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:08:22.229+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:08:22.230+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:08:22.229+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:08:22.452+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:08:22.468+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:08:22.467+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:08:22.482+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:08:22.482+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:08:22.497+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.276 seconds
+[2025-08-06T11:08:53.420+0000] {processor.py:161} INFO - Started process (PID=663) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:08:53.420+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:08:53.421+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:08:53.421+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:08:53.639+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:08:53.656+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:08:53.655+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:08:53.670+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:08:53.670+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:08:53.687+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.272 seconds
+[2025-08-06T11:09:24.604+0000] {processor.py:161} INFO - Started process (PID=674) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:09:24.605+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:09:24.605+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:09:24.605+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:09:24.824+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:09:24.840+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:09:24.839+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:09:24.854+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:09:24.854+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:09:24.871+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.272 seconds
+[2025-08-06T11:09:55.792+0000] {processor.py:161} INFO - Started process (PID=685) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:09:55.793+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:09:55.793+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:09:55.793+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:09:56.011+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:09:56.027+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:09:56.026+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:09:56.041+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:09:56.041+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:09:56.159+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.372 seconds
+[2025-08-06T11:10:26.966+0000] {processor.py:161} INFO - Started process (PID=696) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:10:26.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:10:26.967+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:10:26.967+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:10:27.190+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:10:27.206+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:10:27.205+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:10:27.220+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:10:27.220+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:10:27.237+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.277 seconds
+[2025-08-06T11:10:58.152+0000] {processor.py:161} INFO - Started process (PID=707) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:10:58.160+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:10:58.162+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:10:58.161+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:10:58.386+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:10:58.402+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:10:58.402+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:10:58.416+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:10:58.416+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:10:58.434+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.286 seconds
+[2025-08-06T11:11:29.317+0000] {processor.py:161} INFO - Started process (PID=718) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:11:29.318+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:11:29.318+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:11:29.318+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:11:29.570+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:11:29.586+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:11:29.585+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:11:29.600+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:11:29.600+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:11:29.621+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.308 seconds
+[2025-08-06T11:12:00.478+0000] {processor.py:161} INFO - Started process (PID=729) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:12:00.479+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:12:00.480+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:12:00.479+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:12:00.705+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:12:00.720+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:12:00.720+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:12:00.735+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:12:00.735+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:12:00.860+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.386 seconds
+[2025-08-06T11:12:31.725+0000] {processor.py:161} INFO - Started process (PID=740) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:12:31.726+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:12:31.726+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:12:31.726+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:12:31.963+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:12:31.981+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:12:31.980+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:12:31.998+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:12:31.998+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:12:32.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.297 seconds
+[2025-08-06T11:13:02.925+0000] {processor.py:161} INFO - Started process (PID=751) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:13:02.926+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:13:02.927+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:13:02.927+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:13:03.152+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:13:03.168+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:13:03.168+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:13:03.182+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:13:03.182+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:13:03.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.280 seconds
+[2025-08-06T11:13:33.228+0000] {processor.py:161} INFO - Started process (PID=762) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:13:33.229+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:13:33.229+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:13:33.229+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:13:33.452+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:13:33.470+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:13:33.470+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:13:33.485+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:13:33.485+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:13:33.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.280 seconds
+[2025-08-06T11:14:04.340+0000] {processor.py:161} INFO - Started process (PID=773) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:14:04.348+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:14:04.349+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:14:04.348+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:14:04.575+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:14:04.591+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:14:04.591+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:14:04.608+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:14:04.608+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:14:04.738+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.402 seconds
+[2025-08-06T11:14:35.541+0000] {processor.py:161} INFO - Started process (PID=784) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:14:35.542+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:14:35.542+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:14:35.542+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:14:35.763+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:14:35.779+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:14:35.779+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:14:35.793+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:14:35.793+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:14:35.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.274 seconds
+[2025-08-06T11:15:06.745+0000] {processor.py:161} INFO - Started process (PID=795) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:15:06.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:15:06.754+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:15:06.753+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:15:06.979+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:15:06.996+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:15:06.996+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:15:07.013+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:15:07.012+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:15:07.023+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.283 seconds
+[2025-08-06T11:15:37.059+0000] {processor.py:161} INFO - Started process (PID=809) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:15:37.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:15:37.061+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:15:37.061+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:15:37.340+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:15:37.358+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:15:37.358+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:15:37.484+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:15:37.484+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:15:37.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.448 seconds
+[2025-08-06T11:16:08.292+0000] {processor.py:161} INFO - Started process (PID=822) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:16:08.293+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:16:08.294+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:16:08.293+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:16:08.518+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:16:08.534+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:16:08.534+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:16:08.549+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:16:08.548+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:16:08.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.278 seconds
+[2025-08-06T11:16:38.621+0000] {processor.py:161} INFO - Started process (PID=835) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:16:38.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:16:38.630+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:16:38.629+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:16:38.860+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:16:38.877+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:16:38.876+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:16:38.892+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:16:38.892+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:16:38.909+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.293 seconds
+[2025-08-06T11:17:09.719+0000] {processor.py:161} INFO - Started process (PID=846) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:17:09.727+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:17:09.728+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:17:09.727+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:17:09.950+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:17:09.965+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:17:09.965+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:17:09.980+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:17:09.980+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:17:10.108+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.394 seconds
+[2025-08-06T11:17:40.931+0000] {processor.py:161} INFO - Started process (PID=859) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:17:40.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:17:40.932+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:17:40.932+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:17:41.183+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:17:41.200+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:17:41.200+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:17:41.218+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:17:41.218+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:17:41.237+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.311 seconds
+[2025-08-06T11:18:11.280+0000] {processor.py:161} INFO - Started process (PID=870) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:18:11.289+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:18:11.290+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:18:11.289+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:18:11.575+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:18:11.593+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:18:11.593+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:18:11.608+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:18:11.608+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:18:11.626+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.355 seconds
+[2025-08-06T11:18:41.745+0000] {processor.py:161} INFO - Started process (PID=883) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:18:41.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:18:41.746+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:18:41.746+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:18:41.991+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:18:42.009+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:18:42.009+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:18:42.026+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:18:42.026+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:18:42.038+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.298 seconds
+[2025-08-06T11:19:12.156+0000] {processor.py:161} INFO - Started process (PID=894) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:19:12.157+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:19:12.157+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:19:12.157+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:19:12.404+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:19:12.421+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:19:12.421+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:19:12.437+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:19:12.437+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:19:12.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.411 seconds
+[2025-08-06T11:19:43.372+0000] {processor.py:161} INFO - Started process (PID=907) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:19:43.372+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:19:43.373+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:19:43.373+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:19:43.612+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:19:43.628+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:19:43.628+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:19:43.644+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:19:43.643+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:19:43.662+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.295 seconds
+[2025-08-06T11:20:13.746+0000] {processor.py:161} INFO - Started process (PID=918) to work on /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:20:13.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/minio_to_postgres.py for tasks to queue
+[2025-08-06T11:20:13.748+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:20:13.747+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:20:13.966+0000] {processor.py:840} INFO - DAG(s) 'minio_to_postgres' retrieved from /opt/airflow/dags/minio_to_postgres.py
+[2025-08-06T11:20:13.983+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:20:13.983+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-08-06T11:20:13.997+0000] {logging_mixin.py:188} INFO - [2025-08-06T11:20:13.997+0000] {dag.py:3954} INFO - Setting next_dagrun for minio_to_postgres to 2025-08-06 10:00:00+00:00, run_after=2025-08-06 11:00:00+00:00
+[2025-08-06T11:20:14.007+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/minio_to_postgres.py took 0.265 seconds

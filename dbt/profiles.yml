@@ -1,0 +1,12 @@
+dbt_project:
+  outputs:
+    dev:
+      dbname: green_taxi
+      host: postgres
+      pass: airflow
+      port: 5432
+      threads: 4
+      schema: intermediate
+      type: postgres
+      user: airflow
+  target: dev

@@ -1,0 +1,19 @@
+{{
+    config(
+    materialized="table"
+    )
+ }}
+select
+    vendorid,
+    ratecodeid,
+    pulocationid,
+    dolocationid,
+    lpep_pickup_datetime,
+    lpep_dropoff_datetime,
+    passenger_count,
+    trip_distance,
+    trip_type,
+    payment_type,
+    total_amount
+from
+    {{ ref("staging_green_taxi_2015") }}

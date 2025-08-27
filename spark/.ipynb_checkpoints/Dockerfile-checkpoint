@@ -1,0 +1,4 @@
+FROM bitnami/spark:latest
+
+# Устанавливаем Python библиотеки для PySpark + Kafka
+RUN pip install pyspark kafka-python

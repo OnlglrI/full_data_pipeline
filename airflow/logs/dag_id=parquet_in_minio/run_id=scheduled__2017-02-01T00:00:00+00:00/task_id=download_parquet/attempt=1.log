@@ -1,0 +1,19 @@
+[2025-08-01T04:29:19.510+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-08-01T04:29:19.533+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: parquet_in_minio.download_parquet scheduled__2017-02-01T00:00:00+00:00 [queued]>
+[2025-08-01T04:29:19.538+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: parquet_in_minio.download_parquet scheduled__2017-02-01T00:00:00+00:00 [queued]>
+[2025-08-01T04:29:19.538+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 6
+[2025-08-01T04:29:19.547+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): download_parquet> on 2017-02-01 00:00:00+00:00
+[2025-08-01T04:29:19.551+0000] {standard_task_runner.py:63} INFO - Started process 597 to run task
+[2025-08-01T04:29:19.554+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'parquet_in_minio', 'download_parquet', 'scheduled__2017-02-01T00:00:00+00:00', '--job-id', '93', '--raw', '--subdir', 'DAGS_FOLDER/parquet_to_minio.py', '--cfg-path', '/tmp/tmp8tadfzkd']
+[2025-08-01T04:29:19.555+0000] {standard_task_runner.py:91} INFO - Job 93: Subtask download_parquet
+[2025-08-01T04:29:19.567+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.10/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-08-01T04:29:19.592+0000] {task_command.py:426} INFO - Running <TaskInstance: parquet_in_minio.download_parquet scheduled__2017-02-01T00:00:00+00:00 [running]> on host 87b19f697adc
+[2025-08-01T04:29:19.655+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='parquet_in_minio' AIRFLOW_CTX_TASK_ID='download_parquet' AIRFLOW_CTX_EXECUTION_DATE='2017-02-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2017-02-01T00:00:00+00:00'
+[2025-08-01T04:29:19.656+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-08-01T04:29:19.664+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.10/site-packages/***/utils/context.py:320 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2025-08-01T04:29:45.434+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-08-01T04:29:45.435+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-08-01T04:29:45.443+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=parquet_in_minio, task_id=download_parquet, run_id=scheduled__2017-02-01T00:00:00+00:00, execution_date=20170201T000000, start_date=20250801T042919, end_date=20250801T042945
+[2025-08-01T04:29:45.466+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-08-01T04:29:45.484+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-08-01T04:29:45.485+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,153 @@
+models:
+  - name: dm_green_taxi_2014__fct_trips
+    description: ключивые факты поездки
+    columns:
+      - name: vendor_name
+        description: Идентификатор поставщика таксометра
+        tests:
+          - not_null
+          - accepted_values:
+              values: ["Creative Mobile Technologies","VeriFone Inc."]
+      - name: rate_code_name
+        description: Код тарифа
+        tests:
+          - not_null
+          - accepted_values:
+              values: ["Стандартный","JFK","Newark","Nassau/Westchester","Negotiated fare","Group ride"]
+      - name: pulocationid
+        description: Идентификатор зоны посадки (по Taxi Zone Lookup Table)
+        tests:
+          - not_null
+      - name: dolocationid
+        description: Идентификатор зоны высадки
+        tests:
+          - not_null
+      - name: lpep_pickup_datetime
+        description: Дата и время посадки пассажира
+        tests:
+          - not_null
+      - name: lpep_dropoff_datetime
+        description: Дата и время высадки пассажира
+        tests:
+          - not_null
+      - name: passenger_count
+        description: Количество пассажиров (может быть 0, если неизвестно)
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+      - name: trip_distance
+        description: Расстояние поездки в милях
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+      - name: trip_type_name
+        description: Тип поездки
+        tests:
+          - not_null
+          - accepted_values:
+              values: ["Уличный вызов","По предварительному заказу"]
+      - name: payment_type_name
+        description: Метод оплаты
+        tests:
+          - not_null
+          - accepted_values:
+              values: ["Credit card","Cash","No charge","Dispute","Unknown","Voided trip"]
+      - name: total_amount
+        description: Общая сумма поездки (включает все сборы, чаевые и т.п.)
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+  - name: dm_green_taxi_2014__location_pair_metrics
+    description: данные сгрупированные по маршрутам
+    columns:
+      - name: pulocationid
+        description: Идентификатор зоны посадки (по Taxi Zone Lookup Table)
+        tests:
+          - not_null
+      - name: dolocationid
+        description: Идентификатор зоны высадки
+        tests:
+          - not_null
+      - name: trip_count
+        description: Количество поездок сгрупированных по зоне посадке и зоне высадки
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+      - name: avg_total_amount
+        description: Среднея цена по этим маршрутам
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+  - name: dm_green_taxi_2014__revenue_by_payment_type
+    description: данные сгрупированные по таксометру и дате
+    columns:
+      - name: trip_date
+        description: агрегированные данные по дате посадки пасажира огругленные до даты без времени
+        tests:
+          - not_null
+      - name: vendor_name
+        description: Идентификатор поставщика таксометра
+        tests:
+          - not_null
+          - accepted_values:
+              values: ["Creative Mobile Technologies","VeriFone Inc."]
+      - name: payment_type_name
+        description: Метод оплаты
+        tests:
+          - not_null
+          - accepted_values:
+              values: [ "Credit card","Cash","No charge","Dispute","Unknown","Voided trip" ]
+      - name: sum_gross_revenue
+        description: Сумма валовой выручки за определенную дату
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+      - name: sum_net_revenue
+        description: Сумма чистой выручки за определенную дату
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+  - name: dm_green_taxi_2014_fct_trip_stats
+    description: данные сгрупированные по таксометру и дате
+    columns:
+      - name: trip_date
+        description: Агрегированные данные по дате посадки пасажира огругленные до даты без времени
+        tests:
+          - not_null
+      - name: vendor_name
+        description: Имя поставщика таксометра
+        tests:
+          - not_null
+          - accepted_values:
+              values: ["Creative Mobile Technologies","VeriFone Inc."]
+      - name: trip_count
+        description: Количество поездок сгрупированная по дате и таксометру
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+      - name: avg_distance
+        description: Среднея дистанция сгрупированная по дате и таксометру
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+      - name: avg_total
+        description: Среднея сумма за поездку сгрупированная по дате и таксометру
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+      - name: avg_tip
+        description: Среднея сумма чаевых за поездку сгрупированная по дате и таксометру
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"

@@ -1,0 +1,138 @@
+models:
+  - name: int_green_taxi_2014__fct_revenue
+    description:       Агрегированная таблица доходов зелёного такси за 2014 год, сгруппированная по дате поездки, поставщику и типу оплаты.
+    columns:
+      - name: trip_date
+        description: агрегированные данные по дате посадки пасажира огругленные до даты без времени
+        tests:
+          - not_null
+      - name: vendorid
+        description: |
+          Идентификатор поставщика таксометра 
+          - `1` — Creative Mobile Technologies 
+          - `2` — VeriFone Inc.
+        tests:
+          - not_null
+      - name: payment_type
+        description: |
+          Метод оплаты
+          - `1` — Credit card
+          - `2` — Cash
+          - `3` — No charge
+          - `4` — Dispute
+          - `5` — Unknown
+          - `6` — Voided trip
+        tests:
+          - not_null
+      - name: gross_revenue
+        description: Сумма всех доходов за этот день состоит из полей fare_amount, tip_amount, tolls_amount, improvement_surcharge, mta_tax, extra
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression:  '>= 0'
+      - name: net_revenue
+        description: Общая сумма оплаты за поезду агрегированные по дате состоит из данных поля total_amount
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression:  '>= 0'
+
+  - name: int_green_taxi_2014__fct_trip_stats
+    description: агрегированные данные по trip_date, кол-во поездок и средния дистанция, средняя сумма поездки, средняя сумма чаевых
+    columns:
+      - name: trip_date
+        description: Дата поездки без времени за 2014год
+        tests:
+          - not_null
+      - name: vendorid
+        description: |
+          Идентификатор поставщика таксометра 
+          - `1` — Creative Mobile Technologies 
+          - `2` — VeriFone Inc.
+        tests:
+          - not_null
+          - accepted_values:
+              values: [1,2]
+      - name: trip_count
+        description: количество поезок за определенный день
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: '> 0 '
+      - name: avg_total
+        description: Средния сумма поездки (включает все сборы, чаевые и т.п.)
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: '> 0 '
+      - name: avg_tip
+        description: Средния сумма чаевых
+        tests:
+        - not_null
+        - dbt_utils.expression_is_true:
+            expression: '> 0 '
+
+  - name: int_green_taxi_2014__fct_trips
+    description: данные поздки за 2014год, поля; vendorid, ratecodeid, pulocationid, dolocationid, lpep_pickup_datetime, lpep_dropoff_datetime, passenger_count, trip_distance, trip_type, payment_type, total_amount
+    columns:
+      - name: vendorid
+        description: |
+          Идентификатор поставщика таксометра 
+          - `1` — Creative Mobile Technologies 
+          - `2` — VeriFone Inc.
+        tests:
+          - not_null
+          - accepted_values:
+              values: [1,2]
+      - name: ratecodeid
+        description: |
+          Код тарифа
+          - `1` — Стандартный 
+          - `2` — JFK
+          - `3` — Newark
+          - `4` — Nassau/Westchester
+          - `5` — Negotiated fare
+          - `6` — Group ride
+        tests:
+          - not_null
+          - accepted_values:
+              values: [1,2,3,4,5,6,99]
+      - name: pulocationid
+        description: Идентификатор зоны посадки (по Taxi Zone Lookup Table)
+        tests:
+          - not_null
+      - name: dolocationid
+        description: Идентификатор зоны высадки
+        tests:
+          - not_null
+      - name: lpep_pickup_datetime
+        description: Дата и время посадки пассажира
+        tests:
+          - not_null
+      - name: lpep_dropoff_datetime
+        description: Дата и время высадки пассажира
+        tests:
+          - not_null
+      - name: trip_distance
+        description: Расстояние поездки в милях
+        tests:
+          - not_null
+      - name: payment_type
+        description: |
+          Метод оплаты
+          - `1` — Credit card
+          - `2` — Cash
+          - `3` — No charge
+          - `4` — Dispute
+          - `5` — Unknown
+          - `6` — Voided trip
+        tests:
+          - not_null
+          - accepted_values:
+              values: [1,2,3,4,5,6]
+      - name: total_amount
+        description: Общая сумма поездки (включает все сборы, чаевые и т.п.)
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: '>= 0'

@@ -1,0 +1,106 @@
+common_columns: &common_columns
+  - name: VendorID
+    description: |
+      Идентификатор поставщика таксометра 
+      - `1` — Creative Mobile Technologies 
+      - `2` — VeriFone Inc.
+
+  - name: lpep_pickup_datetime
+    description: Дата и время посадки пассажира
+
+  - name: lpep_dropoff_datetime
+    description: Дата и время высадки пассажира
+
+  - name: store_and_fwd_flag
+    description: |
+      Флаг «Store and Forward» 
+      - `Y` — данные не были отправлены в реальном времени и сохранены в таксометре 
+      - `N` — данные отправлены в реальном времени
+
+  - name: RatecodeID
+    description: |
+      Код тарифа
+      - `1` — Стандартный 
+      - `2` — JFK
+      - `3` — Newark
+      - `4` — Nassau/Westchester
+      - `5` — Negotiated fare
+      - `6` — Group ride
+
+  - name: PULocationID
+    description: Идентификатор зоны посадки (по Taxi Zone Lookup Table)
+
+  - name: DOLocationID
+    description: Идентификатор зоны высадки
+
+  - name: passenger_count
+    description: Количество пассажиров (может быть 0, если неизвестно)
+
+  - name: trip_distance
+    description: Расстояние поездки в милях
+
+  - name: fare_amount
+    description: Основная стоимость поездки
+
+  - name: extra
+    description: Дополнительные сборы (например, ночной тариф, пиковое время)
+
+  - name: mta_tax
+    description: Налог MTA (Metropolitan Transportation Authority) — $0.50
+
+  - name: tip_amount
+    description: Сумма чаевых
+
+  - name: tolls_amount
+    description: Сумма сборов за платные дороги
+
+  - name: ehail_fee
+    description: Плата за электронный вызов (обычно NULL для green taxi)
+
+  - name: improvement_surcharge
+    description: Надбавка $0.30 на развитие инфраструктуры такси
+
+  - name: total_amount
+    description: Общая сумма поездки (включает все сборы, чаевые и т.п.)
+
+  - name: payment_type
+    description: |
+      Метод оплаты
+      - `1` — Credit card
+      - `2` — Cash
+      - `3` — No charge
+      - `4` — Dispute
+      - `5` — Unknown
+      - `6` — Voided trip
+
+  - name: trip_type
+    description: |
+      Тип поездки
+      - `1` — Уличный вызов
+      - `2` — По предварительному заказу
+
+  - name: congestion_surcharge
+    description: Доплата за пробки ($2.50 с января 2019 года)
+
+sources:
+  - name: green_taxi_src
+    database: green_taxi
+    schema: source
+    config: { quote_columns: true }
+    tables:
+      - name: green_tripdata_2014
+        description: Поездки на такси в New-York за 2014 год
+        columns: *common_columns
+
+      - name: green_tripdata_2015
+        description: Поездки на такси в New-York за 2015 год
+        columns: *common_columns
+
+#      - name: green_tripdata_2016
+#        description: Поездки на такси в New-York за 2015 год
+#        columns: *common_columns
+#
+#      - name: green_tripdata_2017
+#        description: Поездки на такси в New-York за 2015 год
+#        columns: *common_columns
+

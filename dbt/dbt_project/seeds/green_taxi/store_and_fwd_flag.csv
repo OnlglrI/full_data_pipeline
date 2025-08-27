@@ -1,0 +1,3 @@
+store_and_fwd_flag_flag,store_and_fwd_flag_desc
+Y,Не в реальном времени (сохранено в таксометре)
+N,В реальном времени
