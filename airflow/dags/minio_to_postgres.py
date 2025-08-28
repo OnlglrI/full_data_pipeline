@@ -83,6 +83,7 @@ def load_parquet_to_postgres(execution_date, **context):
         loaded_records.append(file)
         print(f"{file} → {POSTGRES_SCHEMA}.{table_name} успешно загружен.")
 
+        os.makedirs("/opt/airflow/data", exist_ok=True)
         df_csv = pd.DataFrame([{"filename": file}])
         if os.path.exists(CSV_TRACKING_FILE):
             df_csv.to_csv(CSV_TRACKING_FILE, mode="a", index=False, header=False)

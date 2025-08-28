@@ -12,29 +12,6 @@ S3_ACCESS_KEY="minioadmin"
 S3_SECRET_KEY="minioadmin123"
 MINIO_BUCKET = "staging"
 
-def get_last_month_from_minio(**kwargs):
-    s3 = boto3.client(
-        "s3",
-        endpoint_url=S3_ENDPOINT,
-        aws_access_key_id=S3_ACCESS_KEY,
-        aws_secret_access_key=S3_SECRET_KEY,
-    )
-    response = s3.list_objects_v2(Bucket=MINIO_BUCKET)
-    if "Contents" in response:
-        date = [obj["Key"][15:-8] for obj in response["Contents"]][-1]
-        return date
-    else:
-        return "2014-01"
-
-def test_parquet_in_minio(ti, execution_date, **kwargs):
-    date_str = ti.xcom_pull(task_ids="get_last_month_from_minio")
-    date = datetime.strptime(date_str, "%Y-%m")
-    execution_date = execution_date.replace(day=1)
-    diff = relativedelta(execution_date, date)
-    if  diff.years * 12 + diff.months > 1:
-        return "download_miss_parquet"
-    return "download_parquet"
-
 def download_parquet(execution_date ,**kwargs):
     execution_date = execution_date - relativedelta(months=1)
     execution_date = execution_date.strftime("%Y-%m")
@@ -69,7 +46,6 @@ def cleanup_parquet(execution_date, ti ,**kwargs):
     execution_date = execution_date.strftime("%Y-%m")
 
     LOCAL_PATH = f"/tmp/data/green_tripdata_{execution_date}.parquet"
-
     if os.path.exists(LOCAL_PATH):
         os.remove(LOCAL_PATH)
 
@@ -82,7 +58,7 @@ def plus_one_month(date):
 
 with DAG(
     dag_id="parquet_in_minio",
-    start_date=datetime(2014,2,1),
+    start_date=datetime(2023,2,1),
     schedule_interval="@monthly",
     catchup=True,
     tags = ["minio","parquet"],

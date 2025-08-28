@@ -26,4 +26,4 @@ select
     greatest(coalesce(trip_type,0), 0) AS trip_type,
     congestion_surcharge
 from
-    {{ source("green_taxi_src", "green_tripdata_2015") }}
+    {{ source("green_taxi_src", "green_tripdata_2024") }}

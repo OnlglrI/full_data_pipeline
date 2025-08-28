@@ -1,0 +1,47 @@
+[2025-08-28T04:03:51.127+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-08-28T04:03:51.151+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: minio_to_postgres.load_and_track manual__2025-08-28T04:03:49.409465+00:00 [queued]>
+[2025-08-28T04:03:51.156+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: minio_to_postgres.load_and_track manual__2025-08-28T04:03:49.409465+00:00 [queued]>
+[2025-08-28T04:03:51.157+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-08-28T04:03:51.166+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_and_track> on 2025-08-28 04:03:49.409465+00:00
+[2025-08-28T04:03:51.172+0000] {standard_task_runner.py:63} INFO - Started process 1305 to run task
+[2025-08-28T04:03:51.174+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'minio_to_postgres', 'load_and_track', 'manual__2025-08-28T04:03:49.409465+00:00', '--job-id', '638', '--raw', '--subdir', 'DAGS_FOLDER/minio_to_postgres.py', '--cfg-path', '/tmp/tmpfzrl6hak']
+[2025-08-28T04:03:51.176+0000] {standard_task_runner.py:91} INFO - Job 638: Subtask load_and_track
+[2025-08-28T04:03:51.188+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.10/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-08-28T04:03:51.215+0000] {task_command.py:426} INFO - Running <TaskInstance: minio_to_postgres.load_and_track manual__2025-08-28T04:03:49.409465+00:00 [running]> on host c3d91d0460b0
+[2025-08-28T04:03:51.278+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='minio_to_postgres' AIRFLOW_CTX_TASK_ID='load_and_track' AIRFLOW_CTX_EXECUTION_DATE='2025-08-28T04:03:49.409465+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-08-28T04:03:49.409465+00:00'
+[2025-08-28T04:03:51.279+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-08-28T04:03:51.417+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.10/site-packages/***/utils/context.py:320 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2025-08-28T04:03:54.728+0000] {logging_mixin.py:188} INFO - green_tripdata_2024-04.parquet → staging.green_tripdata_2024 успешно загружен.
+[2025-08-28T04:03:57.422+0000] {logging_mixin.py:188} INFO - green_tripdata_2025-02.parquet → staging.green_tripdata_2025 успешно загружен.
+[2025-08-28T04:04:00.326+0000] {logging_mixin.py:188} INFO - green_tripdata_2024-11.parquet → staging.green_tripdata_2024 успешно загружен.
+[2025-08-28T04:04:03.943+0000] {logging_mixin.py:188} INFO - green_tripdata_2023-08.parquet → staging.green_tripdata_2023 успешно загружен.
+[2025-08-28T04:04:07.632+0000] {logging_mixin.py:188} INFO - green_tripdata_2023-10.parquet → staging.green_tripdata_2023 успешно загружен.
+[2025-08-28T04:04:10.863+0000] {logging_mixin.py:188} INFO - green_tripdata_2024-03.parquet → staging.green_tripdata_2024 успешно загружен.
+[2025-08-28T04:04:13.975+0000] {logging_mixin.py:188} INFO - green_tripdata_2024-06.parquet → staging.green_tripdata_2024 успешно загружен.
+[2025-08-28T04:04:17.002+0000] {logging_mixin.py:188} INFO - green_tripdata_2024-02.parquet → staging.green_tripdata_2024 успешно загружен.
+[2025-08-28T04:04:20.684+0000] {logging_mixin.py:188} INFO - green_tripdata_2023-02.parquet → staging.green_tripdata_2023 успешно загружен.
+[2025-08-28T04:04:23.539+0000] {logging_mixin.py:188} INFO - green_tripdata_2025-07.parquet → staging.green_tripdata_2025 успешно загружен.
+[2025-08-28T04:04:26.330+0000] {logging_mixin.py:188} INFO - green_tripdata_2025-01.parquet → staging.green_tripdata_2025 успешно загружен.
+[2025-08-28T04:04:29.938+0000] {logging_mixin.py:188} INFO - green_tripdata_2023-12.parquet → staging.green_tripdata_2023 успешно загружен.
+[2025-08-28T04:04:34.158+0000] {logging_mixin.py:188} INFO - green_tripdata_2023-03.parquet → staging.green_tripdata_2023 успешно загружен.
+[2025-08-28T04:04:37.141+0000] {logging_mixin.py:188} INFO - green_tripdata_2024-09.parquet → staging.green_tripdata_2024 успешно загружен.
+[2025-08-28T04:04:41.038+0000] {logging_mixin.py:188} INFO - green_tripdata_2023-05.parquet → staging.green_tripdata_2023 успешно загружен.
+[2025-08-28T04:04:43.918+0000] {logging_mixin.py:188} INFO - green_tripdata_2025-06.parquet → staging.green_tripdata_2025 успешно загружен.
+[2025-08-28T04:04:46.877+0000] {logging_mixin.py:188} INFO - green_tripdata_2024-08.parquet → staging.green_tripdata_2024 успешно загружен.
+[2025-08-28T04:04:50.013+0000] {logging_mixin.py:188} INFO - green_tripdata_2024-12.parquet → staging.green_tripdata_2024 успешно загружен.
+[2025-08-28T04:04:53.005+0000] {logging_mixin.py:188} INFO - green_tripdata_2025-04.parquet → staging.green_tripdata_2025 успешно загружен.
+[2025-08-28T04:04:55.846+0000] {logging_mixin.py:188} INFO - green_tripdata_2024-07.parquet → staging.green_tripdata_2024 успешно загружен.
+[2025-08-28T04:04:59.147+0000] {logging_mixin.py:188} INFO - green_tripdata_2024-10.parquet → staging.green_tripdata_2024 успешно загружен.
+[2025-08-28T04:05:02.828+0000] {logging_mixin.py:188} INFO - green_tripdata_2023-04.parquet → staging.green_tripdata_2023 успешно загружен.
+[2025-08-28T04:05:05.868+0000] {logging_mixin.py:188} INFO - green_tripdata_2025-03.parquet → staging.green_tripdata_2025 успешно загружен.
+[2025-08-28T04:05:09.368+0000] {logging_mixin.py:188} INFO - green_tripdata_2024-05.parquet → staging.green_tripdata_2024 успешно загружен.
+[2025-08-28T04:05:12.641+0000] {logging_mixin.py:188} INFO - green_tripdata_2024-01.parquet → staging.green_tripdata_2024 успешно загружен.
+[2025-08-28T04:05:16.293+0000] {logging_mixin.py:188} INFO - green_tripdata_2023-06.parquet → staging.green_tripdata_2023 успешно загружен.
+[2025-08-28T04:05:19.720+0000] {logging_mixin.py:188} INFO - green_tripdata_2025-05.parquet → staging.green_tripdata_2025 успешно загружен.
+[2025-08-28T04:05:23.268+0000] {logging_mixin.py:188} INFO - green_tripdata_2023-07.parquet → staging.green_tripdata_2023 успешно загружен.
+[2025-08-28T04:05:23.270+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-08-28T04:05:23.270+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-08-28T04:05:23.278+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=minio_to_postgres, task_id=load_and_track, run_id=manual__2025-08-28T04:03:49.409465+00:00, execution_date=20250828T040349, start_date=20250828T040351, end_date=20250828T040523
+[2025-08-28T04:05:23.324+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-08-28T04:05:23.337+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-08-28T04:05:23.339+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

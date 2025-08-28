@@ -1,0 +1,19 @@
+[2025-08-28T10:00:00.474+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-08-28T10:00:00.493+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: minio_to_postgres.wait_for_new_file scheduled__2025-08-28T09:00:00+00:00 [queued]>
+[2025-08-28T10:00:00.498+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: minio_to_postgres.wait_for_new_file scheduled__2025-08-28T09:00:00+00:00 [queued]>
+[2025-08-28T10:00:00.499+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-08-28T10:00:00.506+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonSensor): wait_for_new_file> on 2025-08-28 09:00:00+00:00
+[2025-08-28T10:00:00.512+0000] {standard_task_runner.py:63} INFO - Started process 1809 to run task
+[2025-08-28T10:00:00.515+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'minio_to_postgres', 'wait_for_new_file', 'scheduled__2025-08-28T09:00:00+00:00', '--job-id', '675', '--raw', '--subdir', 'DAGS_FOLDER/minio_to_postgres.py', '--cfg-path', '/tmp/tmp3jc0cv2c']
+[2025-08-28T10:00:00.516+0000] {standard_task_runner.py:91} INFO - Job 675: Subtask wait_for_new_file
+[2025-08-28T10:00:00.528+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.10/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-08-28T10:00:00.553+0000] {task_command.py:426} INFO - Running <TaskInstance: minio_to_postgres.wait_for_new_file scheduled__2025-08-28T09:00:00+00:00 [running]> on host 079ec7e245af
+[2025-08-28T10:00:00.735+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='minio_to_postgres' AIRFLOW_CTX_TASK_ID='wait_for_new_file' AIRFLOW_CTX_EXECUTION_DATE='2025-08-28T09:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-08-28T09:00:00+00:00'
+[2025-08-28T10:00:00.735+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-08-28T10:00:00.759+0000] {python.py:75} INFO - Poking callable: <function check_new_file at 0x7fd3581440d0>
+[2025-08-28T10:00:00.877+0000] {base.py:294} INFO - Success criteria met. Exiting.
+[2025-08-28T10:00:00.878+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-08-28T10:00:00.885+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=minio_to_postgres, task_id=wait_for_new_file, run_id=scheduled__2025-08-28T09:00:00+00:00, execution_date=20250828T090000, start_date=20250828T100000, end_date=20250828T100000
+[2025-08-28T10:00:00.927+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-08-28T10:00:00.946+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-08-28T10:00:00.948+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

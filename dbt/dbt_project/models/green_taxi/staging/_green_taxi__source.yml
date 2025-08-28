@@ -89,11 +89,11 @@ sources:
     config: { quote_columns: true }
     tables:
       - name: green_tripdata_2014
-        description: Поездки на такси в New-York за 2014 год
+        description: Поездки на такси в New-York за 2023 год
         columns: *common_columns
 
       - name: green_tripdata_2015
-        description: Поездки на такси в New-York за 2015 год
+        description: Поездки на такси в New-York за 2024 год
         columns: *common_columns
 
 #      - name: green_tripdata_2016

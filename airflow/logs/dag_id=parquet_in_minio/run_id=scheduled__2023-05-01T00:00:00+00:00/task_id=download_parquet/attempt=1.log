@@ -17,3 +17,65 @@
 [2025-08-01T04:31:46.335+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
 [2025-08-01T04:31:46.355+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
 [2025-08-01T04:31:46.356+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2025-08-28T03:48:52.589+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-08-28T03:48:52.618+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: parquet_in_minio.download_parquet scheduled__2023-05-01T00:00:00+00:00 [queued]>
+[2025-08-28T03:48:52.624+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: parquet_in_minio.download_parquet scheduled__2023-05-01T00:00:00+00:00 [queued]>
+[2025-08-28T03:48:52.625+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 6
+[2025-08-28T03:48:52.673+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): download_parquet> on 2023-05-01 00:00:00+00:00
+[2025-08-28T03:48:52.678+0000] {standard_task_runner.py:63} INFO - Started process 683 to run task
+[2025-08-28T03:48:52.681+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'parquet_in_minio', 'download_parquet', 'scheduled__2023-05-01T00:00:00+00:00', '--job-id', '541', '--raw', '--subdir', 'DAGS_FOLDER/parquet_to_minio.py', '--cfg-path', '/tmp/tmpuq16zhi2']
+[2025-08-28T03:48:52.683+0000] {standard_task_runner.py:91} INFO - Job 541: Subtask download_parquet
+[2025-08-28T03:48:52.696+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.10/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-08-28T03:48:52.729+0000] {task_command.py:426} INFO - Running <TaskInstance: parquet_in_minio.download_parquet scheduled__2023-05-01T00:00:00+00:00 [running]> on host c3d91d0460b0
+[2025-08-28T03:48:52.803+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='parquet_in_minio' AIRFLOW_CTX_TASK_ID='download_parquet' AIRFLOW_CTX_EXECUTION_DATE='2023-05-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-01T00:00:00+00:00'
+[2025-08-28T03:48:52.803+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-08-28T03:48:52.816+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.10/site-packages/***/utils/context.py:320 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2025-08-28T03:54:31.202+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-08-28T03:54:31.202+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/response.py", line 737, in _error_catcher
+    yield
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/response.py", line 883, in _raw_read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+urllib3.exceptions.IncompleteRead: IncompleteRead(0 bytes read, 1570467 more expected)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/requests/models.py", line 816, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/response.py", line 1043, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/response.py", line 935, in read
+    data = self._raw_read(amt)
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/response.py", line 861, in _raw_read
+    with self._error_catcher():
+  File "/usr/local/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/airflow/.local/lib/python3.10/site-packages/urllib3/response.py", line 761, in _error_catcher
+    raise ProtocolError(arg, e) from e
+urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(0 bytes read, 1570467 more expected)', IncompleteRead(0 bytes read, 1570467 more expected))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/parquet_to_minio.py", line 24, in download_parquet
+    for chunk in response.iter_content(chunk_size=8192):
+  File "/home/airflow/.local/lib/python3.10/site-packages/requests/models.py", line 818, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(0 bytes read, 1570467 more expected)', IncompleteRead(0 bytes read, 1570467 more expected))
+[2025-08-28T03:54:31.221+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=parquet_in_minio, task_id=download_parquet, run_id=scheduled__2023-05-01T00:00:00+00:00, execution_date=20230501T000000, start_date=20250828T034852, end_date=20250828T035431
+[2025-08-28T03:54:31.232+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 541 for task download_parquet (('Connection broken: IncompleteRead(0 bytes read, 1570467 more expected)', IncompleteRead(0 bytes read, 1570467 more expected)); 683)
+[2025-08-28T03:54:31.238+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-08-28T03:54:31.255+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-08-28T03:54:31.256+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

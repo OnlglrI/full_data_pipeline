@@ -17,3 +17,22 @@
 [2025-08-01T04:37:14.243+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
 [2025-08-01T04:37:14.259+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
 [2025-08-01T04:37:14.261+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2025-08-28T03:51:36.813+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-08-28T03:51:36.832+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: parquet_in_minio.Cleanup_parquet scheduled__2024-08-01T00:00:00+00:00 [queued]>
+[2025-08-28T03:51:36.836+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: parquet_in_minio.Cleanup_parquet scheduled__2024-08-01T00:00:00+00:00 [queued]>
+[2025-08-28T03:51:36.837+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-08-28T03:51:36.844+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): Cleanup_parquet> on 2024-08-01 00:00:00+00:00
+[2025-08-28T03:51:36.849+0000] {standard_task_runner.py:63} INFO - Started process 816 to run task
+[2025-08-28T03:51:36.851+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'parquet_in_minio', 'Cleanup_parquet', 'scheduled__2024-08-01T00:00:00+00:00', '--job-id', '570', '--raw', '--subdir', 'DAGS_FOLDER/parquet_to_minio.py', '--cfg-path', '/tmp/tmp9010i09l']
+[2025-08-28T03:51:36.853+0000] {standard_task_runner.py:91} INFO - Job 570: Subtask Cleanup_parquet
+[2025-08-28T03:51:36.864+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.10/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-08-28T03:51:36.890+0000] {task_command.py:426} INFO - Running <TaskInstance: parquet_in_minio.Cleanup_parquet scheduled__2024-08-01T00:00:00+00:00 [running]> on host c3d91d0460b0
+[2025-08-28T03:51:36.950+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='parquet_in_minio' AIRFLOW_CTX_TASK_ID='Cleanup_parquet' AIRFLOW_CTX_EXECUTION_DATE='2024-08-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-01T00:00:00+00:00'
+[2025-08-28T03:51:36.951+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-08-28T03:51:36.959+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.10/site-packages/***/utils/context.py:320 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2025-08-28T03:51:36.959+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-08-28T03:51:36.960+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-08-28T03:51:36.968+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=parquet_in_minio, task_id=Cleanup_parquet, run_id=scheduled__2024-08-01T00:00:00+00:00, execution_date=20240801T000000, start_date=20250828T035136, end_date=20250828T035136
+[2025-08-28T03:51:36.983+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-08-28T03:51:36.997+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-08-28T03:51:36.998+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

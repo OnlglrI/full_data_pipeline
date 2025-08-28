@@ -1,3 +1,4 @@
+
 FROM apache/airflow:2.9.1-python3.10
 
 USER root
@@ -14,4 +15,3 @@ USER airflow
 
 # Установка dbt + нужного адаптера (например, PostgreSQL)
 RUN pip install --no-cache-dir dbt-core dbt-postgres pandas pyarrow boto3
-

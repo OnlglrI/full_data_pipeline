@@ -42,6 +42,10 @@ services:
       - ./airflow/logs:/opt/airflow/logs
       - ./airflow/plugins:/opt/airflow/plugins
     entrypoint: bash -c "airflow db init && airflow users create --username admin --password admin --firstname Air --lastname Flow --role Admin --email admin@example.com"
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
+    user: "50000:0"
 
   airflow-webserver:
     build:
@@ -57,9 +61,14 @@ services:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/logs:/opt/airflow/logs
       - ./airflow/plugins:/opt/airflow/plugins
+      - ./dbt:/opt/airflow/dbt
     ports:
       - "8080:8080"
     command: webserver
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
+    user: "50000:0"
 
   airflow-scheduler:
     build:
@@ -74,7 +83,12 @@ services:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/logs:/opt/airflow/logs
       - ./airflow/plugins:/opt/airflow/plugins
+      - ./dbt:/opt/airflow/dbt
     command: scheduler
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
+    user: "50000:0"
 
   dbt:
     build:
